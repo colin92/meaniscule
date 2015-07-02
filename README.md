@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/meaniscule.svg)](http://badge.fury.io/js/meaniscule)
 ![Badge of Honor](https://img.shields.io/badge/Built%20at-Fullstack-green.svg?style=flat-square)
+[![Stories in Ready](https://badge.waffle.io/ashryanbeats/meaniscule.svg?label=ready&title=Ready)](http://waffle.io/ashryanbeats/meaniscule)
 # Meaniscule
 _Meaniscule = miniscule + MEAN stack generator_
 
@@ -32,7 +33,7 @@ The `meaniscule` command will populate the directory `my-app` with the newly gen
 ## Initial building tasks
 After generating the app, run:
 ```
-npm i && bower i
+npm install
 npm start
 ````
 
@@ -47,7 +48,6 @@ The default gulp process builds all client-side JS and Sass files, and then watc
 ## File Structure
 ```
 .
-├── bower.json
 ├── gulpfile.js
 ├── node_modules
 ├── package.json
